@@ -111,7 +111,7 @@
       <section class="right-side">
         <div class="about">
           <h3 id="about">ABOUT ME</h3>
-          <p>Strengths: purposefulness, energy and perseverance, self-control, conscious discipline. I have good interpersonal skills. <br><br>I am an excellent team worker and willing to learn and develop new skills. My strengths are determination and diligence. I really enjoy creating web applications.</p>
+          <p>Strengths: purposefulness, energy and perseverance, self-control, conscious discipline. I have good interpersonal skills.<br><br>I am an excellent team worker and willing to learn and develop new skills. My strengths are determination and diligence. I really enjoy creating web applications.</p>
         </div>
         <div class="about">
           <h3>CODE EXAMPLE</h3>
@@ -120,16 +120,13 @@
         <div class="cod">
           <pre>
             <code>
-              <span>const</span> findVowels <span>=</span><span> str</span> <span>=&gt;</span>{
-                <span>let</span> count <span>=</span> 0
-                <span>const</span> vowels <span>=</span> ['a', 'e', 'i', 'o', 'u']
-                <span>for</span>(<span>let</span> char of str.toLowerCase()) {
-                <span>if</span>(vowels.includes(char)) {
-                  count++
-                }
-              }
-              <span>return</span> count
-            }
+              function checkParent (src, dest) {<Br>
+                while (src != null) {<Br>
+                  if (src.tagName == dest) return src<Br>
+                   src = src.parentElement<Br>
+                }<Br>
+                return null<Br>
+               }
           </code>
           </pre>
         </div>
